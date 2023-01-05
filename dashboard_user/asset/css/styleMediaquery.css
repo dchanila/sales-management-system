@@ -1,0 +1,527 @@
+
+@media(max-width: 1190px){
+    .menu{
+    display: none;
+}
+
+.headerbar{
+    width: 100%;
+    height: 7vh;
+    background: #292b3d;
+    position: fixed;
+    z-index: 1;
+}
+    
+    .sidebars{
+    width: 50px;
+    height: 93vh;
+    background: #171926;
+    margin-top:0px ;
+  align-items: center;
+  position: fixed;
+  top: 7vh;
+}
+
+.sidebars_ul{
+  display: none;
+}
+.sidebars_ul2{
+    display: block;
+}
+.contents{
+    position: absolute;
+    top: 7vh;
+    width: 85%;
+    left: 10%;
+}
+
+
+.dashcounter{
+    width: 100%;
+    height: 220px;
+    position: relative;
+   
+}
+
+.counter{
+    position: relative;
+    width: 31%;
+    height: 80%;
+    margin-right: 2%;
+    background: #171926;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.counter .right{
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 70%;
+    
+}
+.counter .right .right_h{
+    margin-top: 13px;
+    margin-left: 13px;
+    font-size: 12px;
+}
+.counter .right .right_p{
+    width: 90%;
+    height: 20%;
+    margin-left: 13px;
+}
+.counter .right .right_p .right_pp{
+    float: left;
+    font-size: 9px;
+    width: 50%;
+}
+.counter .right .right_p .right_pp p{
+    margin: 1px;
+}
+.counter .right .right_total{
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+}
+.counter .left{
+    float: left;
+    width: 30%;
+    height: 70%;
+    
+}
+.icons,.weeks,.icons_month,.icons_p,.icons_pweek,.icons_pmonth{
+    background: #6012a1;
+    width: 80%;
+    margin-top: 13px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+.icons, .bottoms_bar_inner{
+    background: #6012a1;
+}
+.weeks, .bottoms_bar_innerweek{
+    background: #187d4f;
+}
+.icons_month,.bottoms_bar_innermonth{
+    background: #7a093c;
+}
+.icons_p, .bottoms_bar_innerpev{
+    background: #912626;
+}
+.icons_pweek, .bottoms_bar_innerpevweek{
+    background: #8c8607;
+}
+.icons_pmonth, .bottoms_bar_innerpevmonth{
+    background: #077f8c;
+}
+.counter .bottoms{
+  
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+
+}
+.counter .bottoms .bottoms_bar{
+    width: 95%;
+    height: 3px;
+    background:#47475c;
+    margin-left: 2.5%;
+    border-radius: 2px;
+}
+.bottoms_bar_inner, .bottoms_bar_innerweek,.bottoms_bar_innermonth,.bottoms_bar_innerpev,.bottoms_bar_innerpevweek,.bottoms_bar_innerpevmonth{
+    width: 75%;
+    height: 100%;
+}
+.counter .bottoms .bottoms_txt{
+    
+    font-size: 13px;
+    margin-top: 5%;
+}
+
+.counter .bottoms .bottoms_txt .bottoms_txt_left{
+    float: left;
+    width: 70%;
+    margin-left: 5px;
+
+}
+.graphss_container{
+    width: 100%;
+    height: 61vh;
+    margin-bottom: 1vh;
+}
+.charts_view{
+    width: 94%;
+    background: #171926;
+    margin-bottom: 20px;
+    height: 100%;
+  
+}
+.content_reg{
+    position: relative;
+    font-size: 10px;
+    width: 90%;
+     color: black;
+     height: 100%;
+     padding: 30px;
+}
+.content_reg_form{
+    height: 100%;
+    width: 95%;
+    margin-left: 2%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.table_contain{
+    width: 100%;
+}
+.batles_pro {
+  border-collapse: collapse;
+  font-size: 10px;
+  width: 100%;
+  color: black;
+  margin-top: 2vh;
+}
+
+.batles_pro th, td {
+
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+}
+
+.batles_pro tr{background-color: #f2f2f2}
+
+.batles_pro th {
+  background-color: #171926;
+  color: white;
+}
+
+.batles_pro_blocks input[type=number],.batles_pro_blocks input[type=text]{
+    
+    width: 100px;
+    font-size: 10px;
+    height: 30px;
+    padding: 1px;
+}
+.batles_pro_blocks textarea,.batles_pro_blocks input[type=date] {
+    width: 100px;
+    font-size: 10px;
+    height: 30px;
+    padding: 1px;
+    
+}
+
+.btns{
+    background: #1ac992;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+.btns_danger{
+    background: #c91a1a;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+.btn_s{
+    border: 1px solid lightsteelblue;
+    padding: 5px;
+}
+.comments_reason{
+    position: relative;
+    width: 80%;
+    left: 9%;
+    background: #171926;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.comments{
+    width: 80%;
+    background: #0c6fe8;
+    margin-left: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 9px;
+    color: white;
+
+}
+.report_option{
+     width: 70%;
+    height: 70vh;
+    position: relative;
+    transform: translate(15%,15%);
+    align-content:center ;
+}
+.report_choose{
+    background: #171926;
+    color: #dfe3ed;
+    width: 47%;
+    height: 30%;
+    float: left;
+    margin-left:3% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 11px;
+    
+}
+
+}
+
+
+
+
+
+@media(max-width: 768px){
+.menu{
+    display: none;
+}
+
+.search_form{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+ 
+    padding: 3px;
+}
+.headerbar{
+    width: 100%;
+    height: 7vh;
+    background: #292b3d;
+    position: fixed;
+    z-index: 1;
+}
+.sidebars{
+    width: 50px;
+    height: 93vh;
+    background: #171926;
+    margin-top:0px ;
+  align-items: center;
+  position: fixed;
+  top: 7vh;
+}
+
+.sidebars_ul{
+  display: none;
+}
+.sidebars_ul2{
+    display: block;
+}
+
+.comp_name{
+    position: relative;
+    left: 10%;
+    top: -5px;
+    padding: 0px;
+    color: #31add6;
+    font-size: 12px;
+}
+.imgs{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.search select{
+width: 100px;
+height: 20px;
+padding: 1px 2px;
+border: none;
+border-radius: 4px;
+height: 20px;
+font-size: 11px;
+
+}
+input[name=search]{
+background: transparent;
+color: white;
+border: none;
+padding: 3px;
+font-size: 11px;
+}
+
+.contents{
+    position: absolute;
+    top: 7vh;
+    width: 85%;
+    left: 12%;
+}
+
+.dashcounter{
+    width: 100%;
+    position: relative;
+    height: 550px;
+   
+}
+.counter{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin-top: 5px;
+    background: #171926;
+    border-radius: 2px;
+}
+.counter .bottoms .bottoms_txt{
+    
+    font-size: 13px;
+    margin-top: 2%;
+}
+.content_reg{
+    position: relative;
+    font-size: 10px;
+    width: 100%;
+     color: black;
+     height: 100%;
+     padding: 0px;
+}
+.content_reg_form{
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.graphss_container{
+   
+    margin-top: 5px;
+    width: 100%;
+    height: 61vh;
+}
+.charts_view{
+    width: 100%;
+    background: #171926;
+    margin-bottom: 5px;
+    height: 100%;
+  
+}
+
+.table_contain{
+    width: 100%;
+}
+.batles_pro {
+  border-collapse: collapse;
+  font-size: 9px;
+  width: 100%;
+  color: black;
+  margin-top: 1vh;
+}
+
+.batles_pro th, td {
+
+   padding: 2px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+}
+
+.batles_pro tr{background-color: #f2f2f2}
+
+.batles_pro th {
+  background-color: #171926;
+  color: white;
+}
+
+.batles_pro_blocks input[type=number],.batles_pro_blocks input[type=text]{
+    
+    width: 45px;
+    font-size: 9px;
+    height: 20px;
+    padding: 1px;
+}
+.batles_pro_blocks textarea,.batles_pro_blocks input[type=date] {
+    width: 45px;
+    font-size: 9px;
+    height: 20px;
+    padding: 1px;
+    
+}
+
+.btns{
+    background: #1ac992;
+    color: white;
+    font-size: 7px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 5%;
+}
+.btns_danger{
+    background: #c91a1a;
+     color: white;
+    font-size: 7px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 5%;
+}
+.btn_s{
+    border: 1px solid lightsteelblue;
+    padding: 3px;
+}
+.comments_reason{
+    position: relative;
+    width: 80%;
+    left: 9%;
+    background: #171926;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 9px;
+    color: white;
+
+}
+
+.comments{
+    width: 80%;
+    background: #0c6fe8;
+    margin-left: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 7px;
+    color: white;
+
+}
+.report_option{
+     width: 80%;
+    height: 80vh;
+    position: relative;
+    transform: translate(10%,10%);
+    align-content:center ;
+}
+.report_choose{
+    background: #171926;
+    color: #dfe3ed;
+    width: 47%;
+    height: 20%;
+    float: left;
+    margin-left:3% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 9px;
+    
+}
+}
